@@ -1,0 +1,32 @@
+inicar o repositorio local
+
+git init
+
+-------------
+
+Saber o status dos arquivos que são gerenciados pelo git
+
+git status
+
+
+-------------
+
+Adcionar os arquivos alterados no repositorio (Fazer sempre que houver alteração)
+
+git add .
+
+-------------
+
+Realizar commit (Salvar conjunto de LTERAÇÕES)
+
+git commit -m "Mensagem sobre as alterações realizadas"
+
+--------------
+
+Sincronizar repositorio git local com github
+
+git remote add origin git@github.com:ThalesVinicius/LojaVirtualPHP.git  (SOMENTE SE FOR A PRIMEIRA VEZ SINCRONIZAÇÃO)
+
+git push -u origin master
+
+
